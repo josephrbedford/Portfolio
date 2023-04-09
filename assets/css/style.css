@@ -8,14 +8,23 @@
   --bheadradius: 50px 50px 0px 0px;
 }
 * {
-    font-size: 14px;
+    font-size: 18px;
     box-sizing: border-box;
+    line-height: 1.5;  
   }
   
   h1 {
     display: inline;
     font-size: 1.5em;
     padding-right: 10px;
+  }
+
+
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-direction: column;
   }
 
   body {
@@ -55,41 +64,46 @@
     background-color: var(--light);
   }
 
-  .about {
+  .section-wrapper {
     flex: 4;
+   
     background-color: #fff;
-    padding: 50px;
+    padding: 25px 50px 25px 50px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: flex-start;
+ 
   }
 
-
-  .work {
+  .about-side {
     flex: 4;
     background-color: #fff;
-    padding: 50px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: flex-start;
-  }
-
-
-  
-  .sidehead {
-    flex: 4;
-    background-color: #fff;
+    text-align:left;
     padding: 10px;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    flex-wrap: wrap; 
+    
     align-items: flex-start;
-    border-left: 4px grey solid;
+    /* border-left: 4px grey solid */
    
   }
+  
 
+  .sidehead {
+    flex: 4;
+    
+    background-color: #fff;
+    text-align:left;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-evenly;
+    align-items: flex-start;
+    /* border-left: 4px grey solid; */
+   
+  }
+  
   .card {
     border-style: solid;
     border-radius: 10px;
