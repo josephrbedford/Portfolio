@@ -47,36 +47,34 @@
     <!-- Project Cards -->
     <section id="work" class="section-wrapper">
         <h1>Work</h1>
-          <div class="sidehead">       
-         <section class="card">
+          <div class="sidehead">  
+            <section class="card-1" onclick="openCard1()">
+              
+              <header>HTML-CSS-Code Refactor</header>
+              <img src="./assets/images/refactor-code.png" alt="tablet held in hands" />
+              <p>Bootcamp HTML-CSS refactor exercise</p>
+              
+            </section>
+            <section class="card-all">
+              <header>Toilet Paper</header>
+              <img
+                src="./assets/images/toilet-paper.jpg" alt="rolls of toilet paper in a basket"/>
+              <p>Price: $30</p>
+            </section>
+
+         <section class="card-all">
             <header>Web Enabled Thermostat</header>
             <img src="./assets/images/tstat-mainscr.png" alt="Home made web enabled thermostat web interface" />
             <p>Highly accurate web enabled thermostat based on wemos</p>
           </section>
         
-    <section class="card">
-      <header>HTML-CSS-Code Refactor</header>
-      <img src="./assets/images/refactor-code.png" alt="tablet held in hands" />
-      <p>Bootcamp HTML-CSS refactor exercise</p>
-    </section>
-    <section class="card">
-      <header>Toilet Paper</header>
-      <img
-        src="./assets/images/toilet-paper.jpg"
-        alt="rolls of toilet paper in a basket"
-      />
-      <p>Price: $30</p>
-    </section>
-    <section class="card">
-      <header>Wooden Spoons</header>
-      <img
-        src="./assets/images/wooden-spoons.jpg"
-        alt="4 wooden spoons with different seasonings"
-      />
-      <p>Price: $10</p>
-    </section>
-  </div>
-</section>
+          <section class="card-all">
+            <header>Wooden Spoons</header>
+            <img src="./assets/images/wooden-spoons.jpg" alt="4 wooden spoons with different seasonings"/>
+            <p>Price: $10</p>
+          </section>
+        </div>
+  </section>
 
 <section id="contact" class="section-wrapper">
   <h1>Contact Me</h1>
@@ -87,4 +85,8 @@
 </section>
 </main>
 
-
+<script>
+  function openCard1 {
+    window.open("https://www.google.com");
+  }
+</script>
