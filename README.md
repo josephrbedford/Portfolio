@@ -20,7 +20,7 @@ Navigate to https://josephrbedford.github.io/portfolio/ to view the refactored w
 
 ## Credits
 
-N/A
+Loosely based on week 2 class 10 Stu_box-styling and clickable card tutorial at https://play.tailwindcss.com/q0Pje5H2Br.
 
 ## License
 
